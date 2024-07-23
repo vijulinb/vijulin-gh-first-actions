@@ -1,15 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: first_Ownworkflow
+name: name_of_workflow
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: ubuntu-latest
-    steps:
-        - name: Print Message
-          run: |
-            echo "Start Workflow"
+   runs-on: ubuntu-latest
+   steps:
         - name: Print Output
-          run:
-            echo "Stop Workflow"
+          run: echo " Created Own"
     
+  
